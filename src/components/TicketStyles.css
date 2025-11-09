@@ -1,0 +1,5 @@
+@media print {
+  header, footer, nav, #about, #agenda, #booking .grid > :first-child, #docs { display: none !important; }
+  #ticket { padding: 0 !important; }
+  #ticket img { filter: none !important; }
+}
